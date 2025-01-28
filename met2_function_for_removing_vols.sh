@@ -1,3 +1,8 @@
+#!/bin/bash
+
+#dawlat el-said 01/27/2025
+
+
 # 15163/visit1/session1/fmri/order_num_run1 nframes: 530
 # comp dot/num/mixed runs are all 434 volumes
 # 15163/visit1/session1/fmri/comp_dot_run2 nframes: 434
