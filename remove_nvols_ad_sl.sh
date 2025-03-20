@@ -2,7 +2,7 @@
 
 function remove_nvols_sl () {
     load_preproc_modules;
-    rawdir='/oak/stanford/groups/menon/projects/daelsaid/2022_speaker_listener/data/imaging/participants'
+    rawdir='/oak/stanford/groups/menon/projects/daelsaid/2024_ad_speaker_listener/data/imaging/participants'
     for subj_visit_sess in "$@"; do
         echo $subj_visit_sess;
         nii_orig=`ls -d ${rawdir}/${subj_visit_sess}/fmri/*/un*/I.nii.gz | grep -v rest | grep -v failed | grep -v pepolar | grep -v calib`;
